@@ -81,7 +81,7 @@ function JobApplicationForm() {
     e.preventDefault();
     if (!validateForm()) return;
     try {
-      await axios.post("http://localhost:3000/apply", formData);
+      await axios.post("https://smartcity-backend.onrender.com/apply", formData);
       setStatus("✅ Application submitted successfully!");
     } catch {
       setStatus("❌ Submission failed. Please try again.");
