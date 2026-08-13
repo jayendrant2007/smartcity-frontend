@@ -1,0 +1,84 @@
+.form-container {
+  margin: 30px auto;
+  max-width: 700px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+form h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #004080;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+  display: block;
+  width: 100%;
+  margin: 8px 0 15px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #004080;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,64,128,0.3);
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+form button {
+  background: #004080;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+form button:hover {
+  background: #0066cc;
+}
+
+.status {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-button {
+  background: #e6f0ff;
+  color: #004080;
+  border: 1px solid #004080;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.add-button:hover {
+  background: #cce0ff;
+}
